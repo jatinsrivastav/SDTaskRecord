@@ -21,7 +21,21 @@ Swagger UI:
 https://sdtaskrecord-1.onrender.com/swagger-ui/index.html
 ```
 
----
+🔐 Authorization (Important)
+
+All APIs are secured using an API key.
+Before testing endpoints in Swagger, you must authorize:
+
+Steps:
+* Open Swagger UI
+* Click on the "Authorize" button (top-right corner)
+* Enter the API key:
+
+my-secret-key
+
+* Click Authorize → then Close
+* Now you can execute API requests successfully
+
 
 ##  Features
 
